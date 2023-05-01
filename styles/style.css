@@ -11,6 +11,18 @@
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
     position: relative;
 }
+.logo {
+font-size: 42px;
+font-weight: 700;
+color: #25523B;
+margin-left: 30px;
+
+font-family: 'Lobster', cursive;
+
+}
+.logo span{
+    color: #25523B;
+}
 .plantdec{
     opacity: 0.4;
      position: absolute;
@@ -33,6 +45,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+.fa-bars{
+    display: none;
 }
 .nav-li-item{
         margin-right: 23px;
@@ -79,7 +94,7 @@
     margin-bottom: 60px;
 }
 .left-block01{
-    max-width: 40em;
+    max-width: 40rem;
     width: 100%;
     margin-right: 30px;
 }
@@ -105,7 +120,7 @@
     font-family: 'Lobster', cursive;
 }
 .right-block01{
-    max-width: 28.1em;
+    max-width: 28.1rem;
     width: 100%;
    
 
@@ -141,6 +156,9 @@
    margin: 0 auto;
    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
    font-family: 'Lobster', cursive;
+}
+.parent-div-sec02-res{
+    display: none;
 }
 
 .wrapper{
@@ -243,9 +261,9 @@ width: 80%;
 
 .section03-parent{
     background: rgba(224, 233, 148, 0.25);
-    max-width: 76em;
+    max-width: 76rem;
     width: 80%;
-    height: 426px;
+    height: 26.625rem;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -298,14 +316,20 @@ font-family: 'Indie Flower', cursive;
    text-align: center;
    margin: 30px;
 }
-.sec04-wrapper1{
+/* .sec04-wrapper1{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 60px;
    
- /* flex-wrap: wrap; */
-} 
+ 
+}  */
+
+.sec04-wrapper1{
+    
+    display: flex;
+   
+}
 .block h2{
     font-size: 18px;
     font-weight: 600;
@@ -313,6 +337,7 @@ font-family: 'Indie Flower', cursive;
     font-family: 'Indie Flower', cursive;
     margin: 10px 0 ;
 }
+
 .shop-box2{
     background-color: #25523B;
     width: 100px;
@@ -361,13 +386,35 @@ font-family: 'Indie Flower', cursive;
     color: #FFFFFF;
    
 }
+.logo:hover{
+    color: #FFFFFF;
+}
+.logo span:hover{
+    color: #FFFFFF;
+}
+
+.input-value:focus{
+    outline: none;
+}
+.subscribe-button:hover{
+    background-color: #c6cdc7;
+}
+.info-span:hover{
+    color: #c6cdc7;
+}
+.footer-li-item a:hover{
+color: #ececec;
+}
+
+
+
 
 /* section05 */
 
 .bgimg-05{
   background-image: url(../img/bgimg.png);
    width: 100%;
-   height: 370px;
+   height: 23.125rem;
    /* margin: 0 auto; */
      /* text-align: center; */
    display: -webkit-box;
@@ -399,8 +446,261 @@ font-family: 'Indie Flower', cursive;
     font-family: 'Indie Flower', cursive;
     margin-bottom: 25px;
      }
+ /* section06 */
 
-     /* footer */
-     .footer-section{
-        width: 100%;
+   .costumers1{
+    max-width: 26.875rem;
+    width: 40%;
+    /* height: 14.375rem; */
+  background-color: #c6cdc7;
+   padding: 30px;
+   margin: 0 10px;
+   }
+   .costumers12{
+    display: none;
+    max-width: 26.875rem;
+    width: 40%;
+  background-color: #c6cdc7;
+   padding: 30px;
+   margin: 0 10px;
+   }
+
+   .freedelivery-text{
+      font-size: 40px;
+      color: #25523B;
+      font-weight: 800;
+      font-family: 'Indie Flower', cursive;
+   } 
+   .freedelivery-div{
+    display: none;
+   }
+   .freedelivery-div span{
+    font-size: 60px;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    
+   } 
+   .freedelivery-div span:hover{
+    color: #37393F;
+   }
+
+   /* .sec06-text{
+    height: 140px;
+   } */
+   .section06-flex{
+    display: flex;
+   }
+   .section06-title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+   margin-top: 60px;
+   color: #25523B;
+   }
+   .text-conteiner{
+    width: 90%;
+    margin: 0 auto;
+    
+   }
+   .text-conteiner p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+   } 
+   .namestar span{
+    font-size: 20px;
+    font-weight: 600;
+     font-family: 'Indie Flower', cursive;
+   color: #FFFFFF;
+  
+   }
+   .section06-img{
+align-items: top ;
+display: flex;
+margin-top: 7px;
+   }
+   .namestar{
+    margin-left: 20px;
+   }
+   .star06{
+    margin: 7px 0 0 10px;
+   }
+   
+
+ /* footer */
+
+ .footer-block{
+    width: 100%;
+    height:21.875rem;
+    background-color: #25523B;
+    margin-top: 60px;
+    padding: 50px;
+ }
+  .footer-logo{
+    font-size: 42px;
+font-weight: 700;
+color: #ececec;
+margin-left: 30px;
+font-family: 'Lobster', cursive;
+}
+.footer-logo span{
+    color: #c6cdc7;
+}
+.icon-block{
+        display: flex;
+        margin-left: 30px;
+    
+    }
+    .icon{
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background-color:#ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .fa-phone{
+        color: #25523B;
+        font-size: 20px;
+    }
+    .info-span{
+          font-size: 18px;
+        color: #FFFFFF;
+    }
+    
+    .text-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .border-div{
+        border: 1px solid #6C6D72; 
+        margin: 20px 0;
+    
+      
+    }    
+    .footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-li-item a{
+        font-size: 20px;
+        color: #c6cdc7;
+       
+    }
+    .footer-li-item{
+        margin-bottom: 15px;
+    }
+    .icon-block-text {
+        font-family: 'Lobster', cursive;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .contact-block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .email-box{
+        width: 350px;
+        height: 150px;
+        background-color: #c6cdc7;
+        padding: 20px 14px;
+       
+       }
+       .email-box-title{ 
+           font-size: 20px;
+           font-weight: 600;
+           color: #25523B;
+           font-family:'Indie Flower', cursive ;
+
+       }
+       .email-box-text{
+           font-size: 20px;
+           color: #25523B;
+           font-family:'Indie Flower', cursive ;
+           margin: 15px 0;
+       }
+       .long-box{
+           width: 300px;
+           height: 30px;
+           display: flex;
+        
+       
+       }
+       .white-box{
+           width: 205px;
+           height: 60px;
+           background-color: #FFFFFF;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .purple-box{
+           width: 135px;
+           height: 60px;
+           background-color: #25523B;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .white-box-text{
+           color: #37393F;
+           font-size: 18px;
+       }
+       .purple-box-text{
+           font-size: 18px;
+           color: #FFFFFF;
+       }
+      .input-value{
+        height: 40px;
+        color: #25523B;
+        font-size: 18px;
+        font-family: 'Indie Flower', cursive;
+        border: 1px solid #25523B;
+        font-weight:600;
+        background-color: #ececec;
+       
+      }
+      .label-em{
+        font-family:'Indie Flower', cursive ;
+        font-size: 18px;
+        font-weight: 600;
+      }
+     .subscribe-button{
+        height: 40px;
+        font-family:'Indie Flower', cursive ;
+        background-color: #8e968f ;
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid #25523B;
      }
+     /* autoprefixer is ready */
+
+     /* goldenpthos */
+      
+     .left-block{
+       
+       
+     }
+    .goldenpot{
+        max-width: 31.25rem;
+        width: 100%;
+    }
+     .parent-div{
+        display: flex;
+     }
+     .right-block{
+        max-width: 46rem;
+        width: 90%;
+        font-size: 26px;
+        font-weight: 500;
+        font-family: 'Indie Flower', cursive;
+     }
+     .right-block h3{
+        font-size: 30px;
+        font-weight: 700;
+     }
+     
