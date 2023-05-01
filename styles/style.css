@@ -16,9 +16,7 @@ font-size: 42px;
 font-weight: 700;
 color: #25523B;
 margin-left: 30px;
-
 font-family: 'Lobster', cursive;
-
 }
 .logo span{
     color: #25523B;
@@ -40,7 +38,6 @@ font-family: 'Lobster', cursive;
      -ms-flex-pack: justify;
          justify-content: space-between;
 }
-
 .nav-ul-item{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -135,7 +132,6 @@ font-family: 'Lobster', cursive;
     margin-bottom: 60px;
  
 }
-
 /* .border-text{
     color: #25523B;
 } 
@@ -145,10 +141,7 @@ font-family: 'Lobster', cursive;
 /* .border{
     display: flex;
 } */
- 
 /* section02 */
-
-
 .section02-title{
     font-size: 25px;
     font-weight: 700;
@@ -160,7 +153,6 @@ font-family: 'Lobster', cursive;
 .parent-div-sec02-res{
     display: none;
 }
-
 .wrapper{
  -ms-flex-wrap: wrap;
      flex-wrap: wrap;
@@ -218,7 +210,6 @@ width: 80%;
     color: #FEC600;
 }
 /* greenbox */
-
 .greenbox{
     width: 297px;
     background-color: #25523B;
@@ -249,16 +240,13 @@ width: 80%;
     top:90px;
     opacity: 0.2;
 }
-
 .greenbox-p-item{
     color: #FFFFFF;
     font-weight: 600;
     /* margin: 11px 6px 11px 11px; */
     margin-bottom: 15px;
 }
- 
 /* section03 */
-
 .section03-parent{
     background: rgba(224, 233, 148, 0.25);
     max-width: 76rem;
@@ -299,15 +287,10 @@ font-family: 'Indie Flower', cursive;
     left: 0;
     top: 0px;
     opacity: 0.4;
-
 }
-
-
 /* section04 */
-
 .section04{
     padding: 0 15px;
-   
 }
 .sec04-title{
     font-size: 30px;
@@ -321,13 +304,11 @@ font-family: 'Indie Flower', cursive;
     display: -ms-flexbox;
     display: flex;
     margin-left: 60px;
-   
- 
 }  */
-
 .sec04-wrapper1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
- 
 }
 .block h2{
     font-size: 18px;
@@ -336,7 +317,6 @@ font-family: 'Indie Flower', cursive;
     font-family: 'Indie Flower', cursive;
     margin: 10px 0 ;
 }
-
 .shop-box2{
     background-color: #25523B;
     width: 100px;
@@ -351,7 +331,6 @@ font-family: 'Indie Flower', cursive;
 .block-rep{
     display: none;
 }
-
 /* flex */
 .flex-center{
     display: -webkit-box;
@@ -364,8 +343,6 @@ font-family: 'Indie Flower', cursive;
         -ms-flex-align: center;
             align-items: center;
 }
-
-
 /* hover */
 .shop-box:hover{
    opacity: 1;
@@ -386,7 +363,6 @@ font-family: 'Indie Flower', cursive;
 .getstarted-box:hover{
     background-color: #979797;
     color: #FFFFFF;
-   
 }
 .logo:hover{
     color: #FFFFFF;
@@ -394,7 +370,6 @@ font-family: 'Indie Flower', cursive;
 .logo span:hover{
     color: #FFFFFF;
 }
-
 .input-value:focus{
     outline: none;
 }
@@ -407,12 +382,7 @@ font-family: 'Indie Flower', cursive;
 .footer-li-item a:hover{
 color: #ececec;
 }
-
-
-
-
 /* section05 */
-
 .bgimg-05{
   background-image: url(../img/bgimg.png);
    width: 100%;
@@ -429,7 +399,6 @@ color: #ececec;
        -ms-flex-align: center;
            align-items: center;
    background-repeat: cover;
-  
 }
 .getstarted-box{
     background-color: #FFFFFF;
@@ -466,7 +435,6 @@ color: #ececec;
    padding: 30px;
    margin: 0 10px;
    }
-
    .freedelivery-text{
       font-size: 40px;
       color: #25523B;
@@ -481,18 +449,20 @@ color: #ececec;
     color: #000000;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
-    
    } 
    .freedelivery-div span:hover{
     color: #37393F;
    }
-
    /* .sec06-text{
     height: 140px;
    } */
    .section06-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
    }
    .section06-title{
     font-size: 45px;
@@ -505,7 +475,6 @@ color: #ececec;
    .text-conteiner{
     width: 90%;
     margin: 0 auto;
-    
    }
    .text-conteiner p{
     font-family: 'Indie Flower', cursive;
@@ -516,10 +485,13 @@ color: #ececec;
     font-weight: 600;
      font-family: 'Indie Flower', cursive;
    color: #FFFFFF;
-  
    }
    .section06-img{
-align-items: top ;
+-webkit-box-align: top ;
+    -ms-flex-align: top ;
+        align-items: top ;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 margin-top: 7px;
    }
@@ -529,10 +501,7 @@ margin-top: 7px;
    .star06{
     margin: 7px 0 0 10px;
    }
-   
-
  /* footer */
-
  .footer-block{
     width: 100%;
     height:21.875rem;
@@ -551,18 +520,25 @@ font-family: 'Lobster', cursive;
     color: #c6cdc7;
 }
 .icon-block{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-left: 30px;
-    
     }
-    .icon{
+.icon{
         width: 62px;
         height: 62px;
         border-radius: 50%;
         background-color:#ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-right: 10px;
     }
     .fa-phone{
@@ -573,25 +549,30 @@ font-family: 'Lobster', cursive;
           font-size: 18px;
         color: #FFFFFF;
     }
-    
     .text-div{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .border-div{
         border: 1px solid #6C6D72; 
         margin: 20px 0;
-    
-      
     }    
     .footer-wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .footer-li-item a{
         font-size: 20px;
         color: #c6cdc7;
-       
     }
     .footer-li-item{
         margin-bottom: 15px;
@@ -602,23 +583,24 @@ font-family: 'Lobster', cursive;
         color: #FFFFFF;
     }
     .contact-block{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
-
     .email-box{
         width: 350px;
         height: 150px;
         background-color: #c6cdc7;
         padding: 20px 14px;
-       
        }
        .email-box-title{ 
            font-size: 20px;
            font-weight: 600;
            color: #25523B;
            font-family:'Indie Flower', cursive ;
-
        }
        .email-box-text{
            font-size: 20px;
@@ -629,25 +611,37 @@ font-family: 'Lobster', cursive;
        .long-box{
            width: 300px;
            height: 30px;
+           display: -webkit-box;
+           display: -ms-flexbox;
            display: flex;
-        
-       
        }
        .white-box{
            width: 205px;
            height: 60px;
            background-color: #FFFFFF;
+           display: -webkit-box;
+           display: -ms-flexbox;
            display: flex;
-           align-items: center;
-           justify-content: center;
+           -webkit-box-align: center;
+               -ms-flex-align: center;
+                   align-items: center;
+           -webkit-box-pack: center;
+               -ms-flex-pack: center;
+                   justify-content: center;
        }
        .purple-box{
            width: 135px;
            height: 60px;
            background-color: #25523B;
+           display: -webkit-box;
+           display: -ms-flexbox;
            display: flex;
-           align-items: center;
-           justify-content: center;
+           -webkit-box-align: center;
+               -ms-flex-align: center;
+                   align-items: center;
+           -webkit-box-pack: center;
+               -ms-flex-pack: center;
+                   justify-content: center;
        }
        .white-box-text{
            color: #37393F;
@@ -665,7 +659,6 @@ font-family: 'Lobster', cursive;
         border: 1px solid #25523B;
         font-weight:600;
         background-color: #ececec;
-       
       }
       .label-em{
         font-family:'Indie Flower', cursive ;
@@ -680,19 +673,14 @@ font-family: 'Lobster', cursive;
         font-weight: 600;
         border: 1px solid #25523B;
      }
-     /* autoprefixer is ready */
-
      /* goldenpthos */
-      
-     .left-block{
-       
-       
-     }
     .goldenpot{
         max-width: 31.25rem;
         width: 100%;
     }
      .parent-div{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
      }
      .right-block{
