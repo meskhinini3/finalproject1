@@ -326,9 +326,8 @@ font-family: 'Indie Flower', cursive;
 }  */
 
 .sec04-wrapper1{
-    
     display: flex;
-   
+   justify-content: space-between;
 }
 .block h2{
     font-size: 18px;
@@ -426,7 +425,7 @@ color: #ececec;
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-   background-repeat: no-repeat;
+   background-repeat: cover;
   
 }
 .getstarted-box{
@@ -490,6 +489,7 @@ color: #ececec;
    } */
    .section06-flex{
     display: flex;
+    justify-content: space-between;
    }
    .section06-title{
     font-size: 45px;

@@ -142,8 +142,10 @@
      }
      .block{
         width: 45%;
+      
      }
-     .block-rep{display: block;
+     .block-rep{
+        display: block;
      
     }
 }
@@ -164,9 +166,7 @@
     .costumers1{
         height: auto;
     }
-    .subscribe-button{
-      
-    }
+
     .contact-block{
         flex-wrap: wrap;
         row-gap: 10px;
