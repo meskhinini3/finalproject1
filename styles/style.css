@@ -327,7 +327,7 @@ font-family: 'Indie Flower', cursive;
 
 .sec04-wrapper1{
     display: flex;
-   justify-content: space-between;
+ 
 }
 .block h2{
     font-size: 18px;
@@ -347,6 +347,9 @@ font-family: 'Indie Flower', cursive;
 }
 .block-img{
     width: 80%;
+}
+.block-rep{
+    display: none;
 }
 
 /* flex */

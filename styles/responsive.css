@@ -1,16 +1,22 @@
+/* @media (max-width:1029px){
+    .parent-div-sec02-res{
+        display: block;
+    }
+} */
 @media (max-width:1020px){
 .sec04-wrapper1{
         flex-wrap: wrap;
         column-gap: 10px; }
-        .costumers12{ display: block;}
+.costumers12{ display: block;}
 .freedelivery-div{
-            display: block;
-           }
-           .parent-div-sec02-res{
+display: block;
+ }
+.parent-div-sec02-res{
             display: block;  }    
 .block {
     width: 30%;
 }  
+
 .block-rep{
     display: none;
 }
@@ -25,7 +31,9 @@
   .plantdec03{
     display: none;
 }
+
 }
+
 
 
 @media (max-width:768px) {
