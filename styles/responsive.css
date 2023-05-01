@@ -196,6 +196,12 @@ width: 80%;
   .login-div{
     display: none;
   }
+  .plantdec{
+    width: 100%;
+   }
+   .plantdecImg{
+    width: 100%;
+   }
 }
 @media (max-width:360px){
     .greenbox{
